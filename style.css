@@ -81,8 +81,9 @@ img {
   #lezioni, #why{
     background-color: rgb(250, 252, 175);
   }
+  
   #lezioni, #steps, #why{
-    padding:20px;
+    padding: 20px;
   }
 
   #lezioni .row>.left,
@@ -94,7 +95,16 @@ img {
   }
 
   .left, .central, .right{
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
+}
+
+/*tablet*/
+@media screen and (min-width:576px) and (max-width:1199px) {
+
+  #lezioni, #why{
+    background-color: rgb(187, 219, 255);
+  }
+  
 }
